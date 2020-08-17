@@ -1,0 +1,14 @@
+Calculadora de rentabilidades de Felices y Forrados:
+
+Este programa se basa en las rentabilidades históricas de los multifondos de pensiones y las recomendaciones de Felices y Forrados (FyF), para medir el performance de las personas que han seguido dichas recomendaciones. Se debe ingresar la fecha desde la cual se quiere que empiecen los índices de rentabilidad. Se puede ver de hecho que durante el 2011 FyF obtuvo una buena diferencia respecto a los multifondos (¿recomendaciones legítimas?).
+
+Archivos:
+
+- rentabilidad_fyf.ipynb : este archivo en jupyter lo hice solo para que se puedan ver los outputs gráficos sin necesidad de instalar o tener la información en bases de datos. Hace lo mismo que el archivo get_yields.py
+
+- fetch_fyf.py: sube las recomendaciones de FyF a una base de datos
+- fechas_habiles.py: crea una base de datos de fechas hábiles pars que sea más fácil el manejo de información de los fondos.
+- uplodad_valores_cuota.py: sube la información de los valores cuota de los multifondos de pensiones (disponibles en la página de la superintendencia de pensiones)
+
+
+
